@@ -7,3 +7,9 @@
 #two:
 #  name: MyString
 #  email: MyString
+
+  # Returns the hash digest of the given string.
+greg:
+  name: Greg Kane
+  email: gbkane@gmail.com
+  password_digest: <%= User.digest('password') %>
